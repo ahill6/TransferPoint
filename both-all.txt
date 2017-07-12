@@ -1,0 +1,1548 @@
+median
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.medianRewrite 74.0
+InitialCharacterizationTest.buggyMedian4ResultChange 73.0
+InitialCharacterizationTest.medianResultChange 73.0
+InitialCharacterizationTest.xorStructuralChange 60.0
+InitialCharacterizationTest.xorResultChange 60.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.medianRewrite 62.0
+InitialCharacterizationTest.buggyMedian4ResultChange 58.0
+InitialCharacterizationTest.medianResultChange 58.0
+InitialCharacterizationTest.notMedian 38.0
+InitialCharacterizationTest.minStructuralChange 30.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.medianResultChange 2.0
+InitialCharacterizationTest.buggyMedian4ResultChange 2.0
+InitialCharacterizationTest.medianRewrite 4.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.medianStructuralChange 34.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.medianRewrite: 27.0
+InitialCharacterizationTest.medianResultChange: 26.3333
+InitialCharacterizationTest.buggyMedian4ResultChange: 25.8333
+InitialCharacterizationTest.makeChangeResultChange: 24.0
+InitialCharacterizationTest.makeChangeRewrite: 24.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+medianResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.buggyMedian4ResultChange 74.0
+InitialCharacterizationTest.medianRewrite 73.0
+InitialCharacterizationTest.median 73.0
+InitialCharacterizationTest.xorStructuralChange 59.0
+InitialCharacterizationTest.xorResultChange 59.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.buggyMedian4ResultChange 75.0
+InitialCharacterizationTest.medianRewrite 58.0
+InitialCharacterizationTest.median 58.0
+InitialCharacterizationTest.notMedian 38.0
+InitialCharacterizationTest.minStructuralChange 30.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.median 2.0
+InitialCharacterizationTest.buggyMedian4ResultChange 2.0
+InitialCharacterizationTest.medianRewrite 4.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.medianStructuralChange 33.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.medianRewrite: 27.0
+InitialCharacterizationTest.buggyMedian4ResultChange: 26.6667
+InitialCharacterizationTest.median: 26.3333
+InitialCharacterizationTest.makeChangeResultChange: 24.0
+InitialCharacterizationTest.makeChangeRewrite: 24.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+medianStructuralChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.buggyMedian4ResultChange 57.0
+InitialCharacterizationTest.medianRewrite 57.0
+InitialCharacterizationTest.medianResultChange 57.0
+InitialCharacterizationTest.median 57.0
+InitialCharacterizationTest.notMedian 51.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.minStructuralChange 30.0
+InitialCharacterizationTest.notMedian 30.0
+InitialCharacterizationTest.buggyMedian4ResultChange 30.0
+InitialCharacterizationTest.medianRewrite 30.0
+InitialCharacterizationTest.medianResultChange 30.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.median 21.0
+InitialCharacterizationTest.medianResultChange 21.0
+InitialCharacterizationTest.medianRewrite 21.0
+InitialCharacterizationTest.buggyMedian4ResultChange 21.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.minBasic: 18.25
+InitialCharacterizationTest.minResultChange: 18.25
+InitialCharacterizationTest.makeChangeRewrite: 18.0
+InitialCharacterizationTest.makeChange: 18.0
+InitialCharacterizationTest.makeChangeResultChange: 18.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+medianRewrite
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.median 74.0
+InitialCharacterizationTest.buggyMedian4ResultChange 73.0
+InitialCharacterizationTest.medianResultChange 73.0
+InitialCharacterizationTest.xorStructuralChange 59.0
+InitialCharacterizationTest.xorResultChange 59.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.median 62.0
+InitialCharacterizationTest.buggyMedian4ResultChange 58.0
+InitialCharacterizationTest.medianResultChange 58.0
+InitialCharacterizationTest.notMedian 34.0
+InitialCharacterizationTest.minStructuralChange 30.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.median 4.0
+InitialCharacterizationTest.medianResultChange 4.0
+InitialCharacterizationTest.buggyMedian4ResultChange 4.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.medianStructuralChange 34.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.median: 27.0
+InitialCharacterizationTest.medianResultChange: 27.0
+InitialCharacterizationTest.buggyMedian4ResultChange: 26.5
+InitialCharacterizationTest.makeChangeResultChange: 24.6667
+InitialCharacterizationTest.makeChangeRewrite: 24.6667
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+buggyMedian4ResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.medianResultChange 74.0
+InitialCharacterizationTest.medianRewrite 73.0
+InitialCharacterizationTest.median 73.0
+InitialCharacterizationTest.xorStructuralChange 59.0
+InitialCharacterizationTest.xorResultChange 59.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.medianResultChange 75.0
+InitialCharacterizationTest.medianRewrite 58.0
+InitialCharacterizationTest.median 58.0
+InitialCharacterizationTest.notMedian 38.0
+InitialCharacterizationTest.minStructuralChange 30.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.median 2.0
+InitialCharacterizationTest.medianResultChange 2.0
+InitialCharacterizationTest.medianRewrite 4.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.medianStructuralChange 33.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.medianResultChange: 26.6667
+InitialCharacterizationTest.medianRewrite: 26.5
+InitialCharacterizationTest.median: 25.8333
+InitialCharacterizationTest.makeChangeResultChange: 24.0
+InitialCharacterizationTest.makeChangeRewrite: 24.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+notMedian
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.minStructuralChange 31.0
+InitialCharacterizationTest.buggyMedian4ResultChange 30.0
+InitialCharacterizationTest.medianRewrite 30.0
+InitialCharacterizationTest.medianResultChange 30.0
+InitialCharacterizationTest.median 30.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.xorTruthsRewrite 42.0
+InitialCharacterizationTest.xorRewrite 42.0
+InitialCharacterizationTest.xorStructuralChange 42.0
+InitialCharacterizationTest.xorResultChange 42.0
+InitialCharacterizationTest.xorTruthsStructuralChange 26.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.medianRewrite 37.0
+InitialCharacterizationTest.median 38.0
+InitialCharacterizationTest.medianResultChange 38.0
+InitialCharacterizationTest.buggyMedian4ResultChange 38.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.medianRewrite: 26.8333
+InitialCharacterizationTest.median: 26.1667
+InitialCharacterizationTest.medianResultChange: 26.0
+InitialCharacterizationTest.minBasic: 25.75
+InitialCharacterizationTest.minResultChange: 25.75
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+sumOrDifference
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.sumOrDifferenceRewrite 27.0
+InitialCharacterizationTest.sumOrDifferenceResultChange 27.0
+InitialCharacterizationTest.xorTruthsRewrite 12.0
+InitialCharacterizationTest.xorTruthsStructuralChange 12.0
+InitialCharacterizationTest.xorTruthsResultChange 12.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.sumOrDifferenceRewrite 28.0
+InitialCharacterizationTest.sumOrDifferenceResultChange 28.0
+InitialCharacterizationTest.makeChangeStructuralChange 12.0
+InitialCharacterizationTest.copiesRewrite 12.0
+InitialCharacterizationTest.xorTruthsRewrite 11.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.sumOrDifferenceResultChange 1.0
+InitialCharacterizationTest.sumOrDifferenceRewrite 1.0
+InitialCharacterizationTest.factorial 15.0
+InitialCharacterizationTest.minBasic 26.0
+InitialCharacterizationTest.minResultChange 26.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 3.0
+InitialCharacterizationTest.xorTruthsStructuralChange: 3.0
+InitialCharacterizationTest.xorTruthsRewrite: 3.0
+InitialCharacterizationTest.xorTruths: 3.0
+InitialCharacterizationTest.copiesRewrite: 2.25
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+sumOrDifferenceResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.sumOrDifferenceRewrite 27.0
+InitialCharacterizationTest.sumOrDifference 27.0
+InitialCharacterizationTest.xorTruthsRewrite 12.0
+InitialCharacterizationTest.xorTruthsStructuralChange 12.0
+InitialCharacterizationTest.xorTruthsResultChange 12.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.sumOrDifferenceRewrite 28.0
+InitialCharacterizationTest.sumOrDifference 28.0
+InitialCharacterizationTest.makeChangeStructuralChange 12.0
+InitialCharacterizationTest.copiesRewrite 12.0
+InitialCharacterizationTest.xorTruthsRewrite 11.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.sumOrDifference 1.0
+InitialCharacterizationTest.sumOrDifferenceRewrite 1.0
+InitialCharacterizationTest.factorial 15.0
+InitialCharacterizationTest.minBasic 26.0
+InitialCharacterizationTest.minResultChange 26.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 3.0
+InitialCharacterizationTest.xorTruthsStructuralChange: 3.0
+InitialCharacterizationTest.xorTruthsRewrite: 3.0
+InitialCharacterizationTest.xorTruths: 3.0
+InitialCharacterizationTest.copiesRewrite: 2.25
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+sumOrDifferenceRewrite
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.sumOrDifferenceResultChange 27.0
+InitialCharacterizationTest.sumOrDifference 27.0
+InitialCharacterizationTest.xorTruthsRewrite 12.0
+InitialCharacterizationTest.xorTruthsStructuralChange 12.0
+InitialCharacterizationTest.xorTruthsResultChange 12.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.sumOrDifferenceResultChange 28.0
+InitialCharacterizationTest.sumOrDifference 28.0
+InitialCharacterizationTest.makeChangeStructuralChange 12.0
+InitialCharacterizationTest.copiesRewrite 12.0
+InitialCharacterizationTest.xorTruthsRewrite 11.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.sumOrDifference 1.0
+InitialCharacterizationTest.sumOrDifferenceResultChange 1.0
+InitialCharacterizationTest.factorial 15.0
+InitialCharacterizationTest.minBasic 26.0
+InitialCharacterizationTest.minResultChange 26.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 3.0
+InitialCharacterizationTest.xorTruthsStructuralChange: 3.0
+InitialCharacterizationTest.xorTruthsRewrite: 3.0
+InitialCharacterizationTest.xorTruths: 3.0
+InitialCharacterizationTest.copiesRewrite: 2.25
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+testMe2
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.testMe2ResultChange 37.0
+InitialCharacterizationTest.xorTruthsRewrite 25.0
+InitialCharacterizationTest.xorTruths 25.0
+InitialCharacterizationTest.xorRewrite 25.0
+InitialCharacterizationTest.xor 25.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.testMe2StructuralChange 38.0
+InitialCharacterizationTest.testMe2ResultChange 38.0
+InitialCharacterizationTest.blackjackRewrite 15.0
+InitialCharacterizationTest.blackjackStructuralChange 15.0
+InitialCharacterizationTest.notMedian 15.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.testMe2ResultChange 1.0
+InitialCharacterizationTest.minBasic 18.0
+InitialCharacterizationTest.minResultChange 18.0
+InitialCharacterizationTest.minRewrite 19.0
+InitialCharacterizationTest.factorial 20.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 10.5
+InitialCharacterizationTest.xorTruthsStructuralChange: 10.5
+InitialCharacterizationTest.xorTruthsRewrite: 10.5
+InitialCharacterizationTest.xorTruths: 10.5
+InitialCharacterizationTest.testMe2ResultChange: 9.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+testMe2ResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.testMe2 37.0
+InitialCharacterizationTest.xorTruthsRewrite 25.0
+InitialCharacterizationTest.xorTruths 25.0
+InitialCharacterizationTest.xorRewrite 25.0
+InitialCharacterizationTest.xor 25.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.testMe2StructuralChange 38.0
+InitialCharacterizationTest.testMe2 38.0
+InitialCharacterizationTest.blackjackRewrite 15.0
+InitialCharacterizationTest.blackjackStructuralChange 15.0
+InitialCharacterizationTest.notMedian 15.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.testMe2 1.0
+InitialCharacterizationTest.minBasic 18.0
+InitialCharacterizationTest.minResultChange 18.0
+InitialCharacterizationTest.minRewrite 19.0
+InitialCharacterizationTest.factorial 20.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 10.5
+InitialCharacterizationTest.xorTruthsStructuralChange: 10.5
+InitialCharacterizationTest.xorTruthsRewrite: 10.5
+InitialCharacterizationTest.xorTruths: 10.5
+InitialCharacterizationTest.testMe2: 9.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+testMe2StructuralChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsRewrite 23.0
+InitialCharacterizationTest.xorTruths 23.0
+InitialCharacterizationTest.xorRewrite 23.0
+InitialCharacterizationTest.xor 23.0
+InitialCharacterizationTest.xorTruthsStructuralChange 22.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.testMe2ResultChange 38.0
+InitialCharacterizationTest.testMe2 38.0
+InitialCharacterizationTest.blackjackRewrite 15.0
+InitialCharacterizationTest.blackjackStructuralChange 15.0
+InitialCharacterizationTest.blackjackResultChange 15.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.minBasic 18.0
+InitialCharacterizationTest.minResultChange 18.0
+InitialCharacterizationTest.minRewrite 19.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.copies 26.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 10.5
+InitialCharacterizationTest.xorTruthsStructuralChange: 10.5
+InitialCharacterizationTest.xorTruthsRewrite: 10.5
+InitialCharacterizationTest.xorTruths: 10.5
+InitialCharacterizationTest.testMe2: 9.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+factorial
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsRewrite 14.0
+InitialCharacterizationTest.xorTruths 14.0
+InitialCharacterizationTest.xorRewrite 14.0
+InitialCharacterizationTest.xor 14.0
+InitialCharacterizationTest.xorTruthsStructuralChange 13.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.factorialBiggerResultChange 16.0
+InitialCharacterizationTest.factorialResultChange 16.0
+InitialCharacterizationTest.xorTruthsRewrite 14.0
+InitialCharacterizationTest.xorTruths 14.0
+InitialCharacterizationTest.xorRewrite 14.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.median 20.0
+InitialCharacterizationTest.medianResultChange 20.0
+InitialCharacterizationTest.medianStructuralChange 20.0
+InitialCharacterizationTest.medianRewrite 20.0
+InitialCharacterizationTest.buggyMedian4ResultChange 20.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsRewrite: 1.5
+InitialCharacterizationTest.xorTruths: 1.5
+InitialCharacterizationTest.xorTruthsResultChange: 1.5
+InitialCharacterizationTest.xorTruthsStructuralChange: 1.5
+InitialCharacterizationTest.xorRewrite: 1.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+factorialResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsRewrite 31.0
+InitialCharacterizationTest.xorTruthsStructuralChange 31.0
+InitialCharacterizationTest.xorTruthsResultChange 31.0
+InitialCharacterizationTest.xorTruths 31.0
+InitialCharacterizationTest.xorRewrite 22.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.factorialBiggerResultChange 20.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.xorTruthsRewrite 17.0
+InitialCharacterizationTest.xorTruthsStructuralChange 17.0
+InitialCharacterizationTest.xorTruthsResultChange 17.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.factorial 1.0
+InitialCharacterizationTest.factorialBiggerResultChange 1.0
+InitialCharacterizationTest.copies 18.0
+InitialCharacterizationTest.copiesResultChange 18.0
+InitialCharacterizationTest.copiesStructuralChange 19.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.blackjackStructuralChange: 1.8571
+InitialCharacterizationTest.blackjackRewrite: 1.625
+InitialCharacterizationTest.blackjack: 1.5385
+InitialCharacterizationTest.blackjackResultChange: 1.5385
+InitialCharacterizationTest.xorTruthsResultChange: 1.5
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+factorialBiggerResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsRewrite 31.0
+InitialCharacterizationTest.xorTruthsStructuralChange 31.0
+InitialCharacterizationTest.xorTruthsResultChange 31.0
+InitialCharacterizationTest.xorTruths 31.0
+InitialCharacterizationTest.xorRewrite 22.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.factorialResultChange 20.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.xorTruthsRewrite 17.0
+InitialCharacterizationTest.xorTruthsStructuralChange 17.0
+InitialCharacterizationTest.xorTruthsResultChange 17.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.factorial 1.0
+InitialCharacterizationTest.factorialResultChange 1.0
+InitialCharacterizationTest.copies 18.0
+InitialCharacterizationTest.copiesResultChange 18.0
+InitialCharacterizationTest.copiesStructuralChange 19.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.blackjackStructuralChange: 1.8571
+InitialCharacterizationTest.blackjackRewrite: 1.625
+InitialCharacterizationTest.blackjack: 1.5385
+InitialCharacterizationTest.blackjackResultChange: 1.5385
+InitialCharacterizationTest.xorTruthsResultChange: 1.5
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+factorialRewrite
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsRewrite 47.0
+InitialCharacterizationTest.xorTruthsStructuralChange 47.0
+InitialCharacterizationTest.xorTruthsResultChange 47.0
+InitialCharacterizationTest.xorTruths 47.0
+InitialCharacterizationTest.xorRewrite 35.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.blackjackRewrite 17.0
+InitialCharacterizationTest.blackjackStructuralChange 17.0
+InitialCharacterizationTest.blackjackResultChange 17.0
+InitialCharacterizationTest.blackjack 17.0
+InitialCharacterizationTest.minStructuralChange 15.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.factorial 12.0
+InitialCharacterizationTest.minBasic 18.0
+InitialCharacterizationTest.minResultChange 18.0
+InitialCharacterizationTest.minRewrite 19.0
+InitialCharacterizationTest.makeChange 26.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.minBasic: 2.0
+InitialCharacterizationTest.makeChange: 2.0
+InitialCharacterizationTest.minResultChange: 2.0
+InitialCharacterizationTest.makeChangeResultChange: 2.0
+InitialCharacterizationTest.makeChangeRewrite: 2.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+grade
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.gradeStructuralChange 40.0
+InitialCharacterizationTest.gradeResultChange 32.0
+InitialCharacterizationTest.xorTruthsRewrite 21.0
+InitialCharacterizationTest.xorTruths 21.0
+InitialCharacterizationTest.xorRewrite 21.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.gradeResultChange 33.0
+InitialCharacterizationTest.xorTruthsRewrite 29.0
+InitialCharacterizationTest.xorTruths 29.0
+InitialCharacterizationTest.xorRewrite 29.0
+InitialCharacterizationTest.xor 29.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.gradeResultChange 1.0
+InitialCharacterizationTest.factorial 19.0
+InitialCharacterizationTest.gradeStructuralChange 20.0
+InitialCharacterizationTest.minBasic 27.0
+InitialCharacterizationTest.minResultChange 27.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruths: 1.5
+InitialCharacterizationTest.xorTruthsResultChange: 1.5
+InitialCharacterizationTest.xorTruthsStructuralChange: 1.5
+InitialCharacterizationTest.xorTruthsRewrite: 1.5
+InitialCharacterizationTest.xor: 1.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+gradeResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.gradeStructuralChange 40.0
+InitialCharacterizationTest.grade 32.0
+InitialCharacterizationTest.xorTruthsRewrite 21.0
+InitialCharacterizationTest.xorTruths 21.0
+InitialCharacterizationTest.xorRewrite 21.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.grade 33.0
+InitialCharacterizationTest.xorTruthsRewrite 29.0
+InitialCharacterizationTest.xorTruths 29.0
+InitialCharacterizationTest.xorRewrite 29.0
+InitialCharacterizationTest.xor 29.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.grade 1.0
+InitialCharacterizationTest.factorial 19.0
+InitialCharacterizationTest.gradeStructuralChange 20.0
+InitialCharacterizationTest.minBasic 27.0
+InitialCharacterizationTest.minResultChange 27.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruths: 1.5
+InitialCharacterizationTest.xorTruthsResultChange: 1.5
+InitialCharacterizationTest.xorTruthsStructuralChange: 1.5
+InitialCharacterizationTest.xorTruthsRewrite: 1.5
+InitialCharacterizationTest.xor: 1.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+gradeStructuralChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.gradeResultChange 31.0
+InitialCharacterizationTest.grade 31.0
+InitialCharacterizationTest.xorTruthsRewrite 23.0
+InitialCharacterizationTest.xorTruths 23.0
+InitialCharacterizationTest.xorRewrite 23.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.gradeResultChange 28.0
+InitialCharacterizationTest.grade 28.0
+InitialCharacterizationTest.xorTruthsRewrite 27.0
+InitialCharacterizationTest.xorTruths 27.0
+InitialCharacterizationTest.xorRewrite 27.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.grade 31.0
+InitialCharacterizationTest.gradeResultChange 31.0
+InitialCharacterizationTest.minRewrite 34.0
+InitialCharacterizationTest.minBasic 35.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruths: 3.0
+InitialCharacterizationTest.xorTruthsResultChange: 3.0
+InitialCharacterizationTest.xorTruthsStructuralChange: 3.0
+InitialCharacterizationTest.xorTruthsRewrite: 3.0
+InitialCharacterizationTest.xor: 2.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+minBasic
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.minResultChange 38.0
+InitialCharacterizationTest.minRewrite 34.0
+InitialCharacterizationTest.blackjackStructuralChange 33.0
+InitialCharacterizationTest.minStructuralChange 29.0
+InitialCharacterizationTest.blackjackRewrite 28.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.minResultChange 39.0
+InitialCharacterizationTest.minStructuralChange 22.0
+InitialCharacterizationTest.notMedian 22.0
+InitialCharacterizationTest.buggyMedian4ResultChange 22.0
+InitialCharacterizationTest.medianRewrite 22.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.minResultChange 1.0
+InitialCharacterizationTest.minRewrite 5.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.makeChange 22.0
+InitialCharacterizationTest.makeChangeResultChange 22.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.minResultChange: 17.5
+InitialCharacterizationTest.makeChangeRewrite: 17.3333
+InitialCharacterizationTest.makeChange: 17.3333
+InitialCharacterizationTest.makeChangeResultChange: 17.3333
+InitialCharacterizationTest.medianRewrite: 15.8333
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+minResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.minBasic 38.0
+InitialCharacterizationTest.minRewrite 34.0
+InitialCharacterizationTest.blackjackStructuralChange 33.0
+InitialCharacterizationTest.minStructuralChange 29.0
+InitialCharacterizationTest.blackjackRewrite 28.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.minBasic 39.0
+InitialCharacterizationTest.minStructuralChange 22.0
+InitialCharacterizationTest.notMedian 22.0
+InitialCharacterizationTest.buggyMedian4ResultChange 22.0
+InitialCharacterizationTest.medianRewrite 22.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.minBasic 1.0
+InitialCharacterizationTest.minRewrite 5.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.makeChange 22.0
+InitialCharacterizationTest.makeChangeResultChange 22.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.minBasic: 17.5
+InitialCharacterizationTest.makeChangeRewrite: 17.3333
+InitialCharacterizationTest.makeChange: 17.3333
+InitialCharacterizationTest.makeChangeResultChange: 17.3333
+InitialCharacterizationTest.medianRewrite: 15.8333
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+minStructuralChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.notMedian 37.0
+InitialCharacterizationTest.buggyMedian4ResultChange 37.0
+InitialCharacterizationTest.medianRewrite 37.0
+InitialCharacterizationTest.medianResultChange 37.0
+InitialCharacterizationTest.median 37.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.notMedian 30.0
+InitialCharacterizationTest.buggyMedian4ResultChange 30.0
+InitialCharacterizationTest.medianRewrite 30.0
+InitialCharacterizationTest.medianResultChange 30.0
+InitialCharacterizationTest.median 30.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minRewrite 22.0
+InitialCharacterizationTest.minBasic 23.0
+InitialCharacterizationTest.minResultChange 23.0
+InitialCharacterizationTest.makeChange 27.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.minResultChange: 18.25
+InitialCharacterizationTest.minBasic: 18.25
+InitialCharacterizationTest.minRewrite: 18.0
+InitialCharacterizationTest.makeChangeRewrite: 17.3333
+InitialCharacterizationTest.makeChange: 17.3333
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+minRewrite
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.minResultChange 34.0
+InitialCharacterizationTest.minBasic 34.0
+InitialCharacterizationTest.blackjackStructuralChange 33.0
+InitialCharacterizationTest.minStructuralChange 28.0
+InitialCharacterizationTest.blackjackRewrite 27.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.medianStructuralChange 22.0
+InitialCharacterizationTest.makeChangeRewrite 16.0
+InitialCharacterizationTest.makeChangeResultChange 16.0
+InitialCharacterizationTest.makeChange 16.0
+InitialCharacterizationTest.minStructuralChange 16.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.minBasic 5.0
+InitialCharacterizationTest.minResultChange 5.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.makeChange 21.0
+InitialCharacterizationTest.makeChangeResultChange 21.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.minResultChange: 15.75
+InitialCharacterizationTest.minBasic: 15.75
+InitialCharacterizationTest.makeChangeRewrite: 15.3333
+InitialCharacterizationTest.makeChange: 15.3333
+InitialCharacterizationTest.makeChangeResultChange: 15.3333
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+copies
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.copiesStructuralChange 20.0
+InitialCharacterizationTest.copiesResultChange 20.0
+InitialCharacterizationTest.xorTruthsRewrite 15.0
+InitialCharacterizationTest.xorTruthsStructuralChange 15.0
+InitialCharacterizationTest.xorTruthsResultChange 15.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.copiesStructuralChange 21.0
+InitialCharacterizationTest.copiesResultChange 21.0
+InitialCharacterizationTest.xorTruthsRewrite 14.0
+InitialCharacterizationTest.xorTruths 14.0
+InitialCharacterizationTest.xorRewrite 14.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.copiesResultChange 1.0
+InitialCharacterizationTest.factorial 3.0
+InitialCharacterizationTest.copiesStructuralChange 3.0
+InitialCharacterizationTest.copiesRewrite 19.0
+InitialCharacterizationTest.median 21.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.makeChangeResultChange: 12.6667
+InitialCharacterizationTest.makeChangeRewrite: 12.6667
+InitialCharacterizationTest.makeChange: 12.6667
+InitialCharacterizationTest.minBasic: 12.5
+InitialCharacterizationTest.minResultChange: 12.5
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+copiesResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.copiesStructuralChange 20.0
+InitialCharacterizationTest.copies 20.0
+InitialCharacterizationTest.xorTruthsRewrite 15.0
+InitialCharacterizationTest.xorTruthsStructuralChange 15.0
+InitialCharacterizationTest.xorTruthsResultChange 15.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.copiesStructuralChange 21.0
+InitialCharacterizationTest.copies 21.0
+InitialCharacterizationTest.xorTruthsRewrite 14.0
+InitialCharacterizationTest.xorTruths 14.0
+InitialCharacterizationTest.xorRewrite 14.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.copies 1.0
+InitialCharacterizationTest.factorial 3.0
+InitialCharacterizationTest.copiesStructuralChange 3.0
+InitialCharacterizationTest.copiesRewrite 19.0
+InitialCharacterizationTest.median 21.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.makeChangeResultChange: 12.6667
+InitialCharacterizationTest.makeChangeRewrite: 12.6667
+InitialCharacterizationTest.makeChange: 12.6667
+InitialCharacterizationTest.minBasic: 12.5
+InitialCharacterizationTest.minResultChange: 12.5
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+copiesStructuralChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.copiesResultChange 20.0
+InitialCharacterizationTest.copies 20.0
+InitialCharacterizationTest.xorTruthsRewrite 14.0
+InitialCharacterizationTest.xorTruthsStructuralChange 14.0
+InitialCharacterizationTest.xorTruthsResultChange 14.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.copiesResultChange 21.0
+InitialCharacterizationTest.copies 21.0
+InitialCharacterizationTest.xorTruthsRewrite 14.0
+InitialCharacterizationTest.xorTruths 14.0
+InitialCharacterizationTest.xorRewrite 14.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.factorial 3.0
+InitialCharacterizationTest.copies 3.0
+InitialCharacterizationTest.copiesResultChange 3.0
+InitialCharacterizationTest.copiesRewrite 19.0
+InitialCharacterizationTest.median 21.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.makeChangeResultChange: 12.6667
+InitialCharacterizationTest.makeChangeRewrite: 12.6667
+InitialCharacterizationTest.makeChange: 12.6667
+InitialCharacterizationTest.minBasic: 12.5
+InitialCharacterizationTest.minResultChange: 12.5
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+copiesRewrite
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsRewrite 14.0
+InitialCharacterizationTest.xorTruthsStructuralChange 14.0
+InitialCharacterizationTest.xorTruthsResultChange 14.0
+InitialCharacterizationTest.xorTruths 14.0
+InitialCharacterizationTest.xorRewrite 14.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.sumOrDifferenceRewrite 12.0
+InitialCharacterizationTest.sumOrDifferenceResultChange 12.0
+InitialCharacterizationTest.sumOrDifference 12.0
+InitialCharacterizationTest.xorTruthsRewrite 11.0
+InitialCharacterizationTest.xorTruthsStructuralChange 11.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.copies 19.0
+InitialCharacterizationTest.copiesResultChange 19.0
+InitialCharacterizationTest.copiesStructuralChange 19.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minBasic 22.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 13.5
+InitialCharacterizationTest.xorTruthsStructuralChange: 13.5
+InitialCharacterizationTest.xorTruthsRewrite: 13.5
+InitialCharacterizationTest.xorTruths: 13.5
+InitialCharacterizationTest.makeChangeResultChange: 12.6667
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+blackjack
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsRewrite 51.0
+InitialCharacterizationTest.xorTruths 51.0
+InitialCharacterizationTest.xorTruthsStructuralChange 50.0
+InitialCharacterizationTest.xorTruthsResultChange 50.0
+InitialCharacterizationTest.blackjackResultChange 48.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.blackjackResultChange 49.0
+InitialCharacterizationTest.blackjackRewrite 24.0
+InitialCharacterizationTest.blackjackStructuralChange 24.0
+InitialCharacterizationTest.factorialRewrite 19.0
+InitialCharacterizationTest.minStructuralChange 18.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.blackjackResultChange 1.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minRewrite 24.0
+InitialCharacterizationTest.minBasic 25.0
+InitialCharacterizationTest.minResultChange 25.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 15.0
+InitialCharacterizationTest.xorTruthsStructuralChange: 15.0
+InitialCharacterizationTest.xorTruthsRewrite: 15.0
+InitialCharacterizationTest.xorTruths: 15.0
+InitialCharacterizationTest.copiesRewrite: 11.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+blackjackResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsRewrite 51.0
+InitialCharacterizationTest.xorTruths 51.0
+InitialCharacterizationTest.xorTruthsStructuralChange 50.0
+InitialCharacterizationTest.xorTruthsResultChange 50.0
+InitialCharacterizationTest.blackjack 48.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.blackjack 49.0
+InitialCharacterizationTest.blackjackRewrite 24.0
+InitialCharacterizationTest.blackjackStructuralChange 24.0
+InitialCharacterizationTest.factorialRewrite 19.0
+InitialCharacterizationTest.minStructuralChange 18.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.blackjack 1.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minRewrite 24.0
+InitialCharacterizationTest.minBasic 25.0
+InitialCharacterizationTest.minResultChange 25.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 15.0
+InitialCharacterizationTest.xorTruthsStructuralChange: 15.0
+InitialCharacterizationTest.xorTruthsRewrite: 15.0
+InitialCharacterizationTest.xorTruths: 15.0
+InitialCharacterizationTest.copiesRewrite: 11.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+blackjackStructuralChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.blackjackRewrite 38.0
+InitialCharacterizationTest.minRewrite 33.0
+InitialCharacterizationTest.minResultChange 33.0
+InitialCharacterizationTest.minBasic 33.0
+InitialCharacterizationTest.minStructuralChange 29.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.blackjackRewrite 21.0
+InitialCharacterizationTest.blackjackResultChange 21.0
+InitialCharacterizationTest.blackjack 21.0
+InitialCharacterizationTest.factorialBiggerResultChange 16.0
+InitialCharacterizationTest.factorialResultChange 16.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.minRewrite 17.0
+InitialCharacterizationTest.minBasic 18.0
+InitialCharacterizationTest.minResultChange 18.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.makeChange 24.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 7.5
+InitialCharacterizationTest.xorTruthsStructuralChange: 7.5
+InitialCharacterizationTest.xorTruthsRewrite: 7.5
+InitialCharacterizationTest.xorTruths: 7.5
+InitialCharacterizationTest.blackjackRewrite: 6.875
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+blackjackRewrite
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.blackjackStructuralChange 41.0
+InitialCharacterizationTest.minRewrite 33.0
+InitialCharacterizationTest.minStructuralChange 33.0
+InitialCharacterizationTest.minResultChange 33.0
+InitialCharacterizationTest.minBasic 33.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.blackjackStructuralChange 40.0
+InitialCharacterizationTest.blackjackResultChange 29.0
+InitialCharacterizationTest.blackjack 29.0
+InitialCharacterizationTest.xorTruthsRewrite 17.0
+InitialCharacterizationTest.xorTruthsStructuralChange 17.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.blackjackStructuralChange 16.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minRewrite 24.0
+InitialCharacterizationTest.minBasic 25.0
+InitialCharacterizationTest.minResultChange 25.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 10.5
+InitialCharacterizationTest.xorTruthsStructuralChange: 10.5
+InitialCharacterizationTest.xorTruthsRewrite: 10.5
+InitialCharacterizationTest.xorTruths: 10.5
+InitialCharacterizationTest.blackjackStructuralChange: 7.8571
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+makeChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.makeChangeRewrite 34.0
+InitialCharacterizationTest.makeChangeResultChange 34.0
+InitialCharacterizationTest.notMedian 17.0
+InitialCharacterizationTest.buggyMedian4ResultChange 17.0
+InitialCharacterizationTest.medianRewrite 17.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.makeChangeRewrite 35.0
+InitialCharacterizationTest.makeChangeResultChange 35.0
+InitialCharacterizationTest.minStructuralChange 15.0
+InitialCharacterizationTest.minResultChange 15.0
+InitialCharacterizationTest.minBasic 15.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.makeChangeResultChange 1.0
+InitialCharacterizationTest.makeChangeRewrite 1.0
+InitialCharacterizationTest.factorial 19.0
+InitialCharacterizationTest.minRewrite 21.0
+InitialCharacterizationTest.minBasic 22.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.makeChangeResultChange: 13.3333
+InitialCharacterizationTest.makeChangeRewrite: 13.3333
+InitialCharacterizationTest.minBasic: 13.0
+InitialCharacterizationTest.minResultChange: 13.0
+InitialCharacterizationTest.medianRewrite: 12.3333
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+makeChangeResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.makeChangeRewrite 34.0
+InitialCharacterizationTest.makeChange 34.0
+InitialCharacterizationTest.notMedian 17.0
+InitialCharacterizationTest.buggyMedian4ResultChange 17.0
+InitialCharacterizationTest.medianRewrite 17.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.makeChangeRewrite 35.0
+InitialCharacterizationTest.makeChange 35.0
+InitialCharacterizationTest.minStructuralChange 15.0
+InitialCharacterizationTest.minResultChange 15.0
+InitialCharacterizationTest.minBasic 15.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.makeChange 1.0
+InitialCharacterizationTest.makeChangeRewrite 1.0
+InitialCharacterizationTest.factorial 19.0
+InitialCharacterizationTest.minRewrite 21.0
+InitialCharacterizationTest.minBasic 22.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.makeChange: 13.3333
+InitialCharacterizationTest.makeChangeRewrite: 13.3333
+InitialCharacterizationTest.minBasic: 13.0
+InitialCharacterizationTest.minResultChange: 13.0
+InitialCharacterizationTest.medianRewrite: 12.3333
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+makeChangeStructuralChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsRewrite 53.0
+InitialCharacterizationTest.xorTruthsStructuralChange 53.0
+InitialCharacterizationTest.xorTruthsResultChange 53.0
+InitialCharacterizationTest.xorTruths 53.0
+InitialCharacterizationTest.xorRewrite 37.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.factorialRewrite 14.0
+InitialCharacterizationTest.sumOrDifferenceRewrite 13.0
+InitialCharacterizationTest.sumOrDifferenceResultChange 13.0
+InitialCharacterizationTest.sumOrDifference 13.0
+InitialCharacterizationTest.makeChangeRewrite 12.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minRewrite 24.0
+InitialCharacterizationTest.minBasic 25.0
+InitialCharacterizationTest.minResultChange 25.0
+InitialCharacterizationTest.makeChange 29.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.minBasic: 15.0
+InitialCharacterizationTest.minResultChange: 15.0
+InitialCharacterizationTest.makeChange: 14.6667
+InitialCharacterizationTest.makeChangeResultChange: 14.6667
+InitialCharacterizationTest.makeChangeRewrite: 14.6667
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+makeChangeRewrite
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.makeChangeResultChange 34.0
+InitialCharacterizationTest.makeChange 34.0
+InitialCharacterizationTest.notMedian 17.0
+InitialCharacterizationTest.buggyMedian4ResultChange 17.0
+InitialCharacterizationTest.medianRewrite 17.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.makeChangeResultChange 35.0
+InitialCharacterizationTest.makeChange 35.0
+InitialCharacterizationTest.minStructuralChange 15.0
+InitialCharacterizationTest.minResultChange 15.0
+InitialCharacterizationTest.minBasic 15.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.makeChange 1.0
+InitialCharacterizationTest.makeChangeResultChange 1.0
+InitialCharacterizationTest.factorial 19.0
+InitialCharacterizationTest.minRewrite 21.0
+InitialCharacterizationTest.minBasic 22.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.makeChange: 13.3333
+InitialCharacterizationTest.makeChangeResultChange: 13.3333
+InitialCharacterizationTest.minBasic: 13.0
+InitialCharacterizationTest.minResultChange: 13.0
+InitialCharacterizationTest.medianRewrite: 12.3333
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+xor
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruths 159.0
+InitialCharacterizationTest.xorTruthsRewrite 158.0
+InitialCharacterizationTest.xorRewrite 158.0
+InitialCharacterizationTest.xorTruthsStructuralChange 156.0
+InitialCharacterizationTest.xorTruthsResultChange 156.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.xorTruthsRewrite 93.0
+InitialCharacterizationTest.xorTruths 93.0
+InitialCharacterizationTest.xorRewrite 93.0
+InitialCharacterizationTest.xorTruthsStructuralChange 40.0
+InitialCharacterizationTest.xorTruthsResultChange 40.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.xorRewrite 4.0
+InitialCharacterizationTest.xorResultChange 7.0
+InitialCharacterizationTest.xorStructuralChange 7.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minBasic 49.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsStructuralChange: 24.0
+InitialCharacterizationTest.xorTruthsRewrite: 24.0
+InitialCharacterizationTest.xorTruths: 24.0
+InitialCharacterizationTest.xorTruthsResultChange: 24.0
+InitialCharacterizationTest.xorStructuralChange: 16.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+xorResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorStructuralChange 161.0
+InitialCharacterizationTest.xorTruthsStructuralChange 158.0
+InitialCharacterizationTest.xorTruthsResultChange 158.0
+InitialCharacterizationTest.xorRewrite 158.0
+InitialCharacterizationTest.xorTruthsRewrite 156.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.xorStructuralChange 162.0
+InitialCharacterizationTest.xorRewrite 96.0
+InitialCharacterizationTest.xorTruthsStructuralChange 93.0
+InitialCharacterizationTest.xorTruthsResultChange 93.0
+InitialCharacterizationTest.xorTruthsRewrite 40.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.xorStructuralChange 1.0
+InitialCharacterizationTest.xorRewrite 4.0
+InitialCharacterizationTest.xor 7.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minBasic 49.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsStructuralChange: 24.0
+InitialCharacterizationTest.xorTruthsRewrite: 24.0
+InitialCharacterizationTest.xorTruths: 24.0
+InitialCharacterizationTest.xorTruthsResultChange: 24.0
+InitialCharacterizationTest.xorStructuralChange: 16.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+xorStructuralChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorResultChange 161.0
+InitialCharacterizationTest.xorTruthsStructuralChange 158.0
+InitialCharacterizationTest.xorTruthsResultChange 158.0
+InitialCharacterizationTest.xorRewrite 158.0
+InitialCharacterizationTest.xorTruthsRewrite 156.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.xorResultChange 162.0
+InitialCharacterizationTest.xorRewrite 96.0
+InitialCharacterizationTest.xorTruthsStructuralChange 93.0
+InitialCharacterizationTest.xorTruthsResultChange 93.0
+InitialCharacterizationTest.xorTruthsRewrite 40.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.xorResultChange 1.0
+InitialCharacterizationTest.xorRewrite 4.0
+InitialCharacterizationTest.xor 7.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minBasic 49.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsStructuralChange: 24.0
+InitialCharacterizationTest.xorTruthsRewrite: 24.0
+InitialCharacterizationTest.xorTruths: 24.0
+InitialCharacterizationTest.xorTruthsResultChange: 24.0
+InitialCharacterizationTest.xorResultChange: 16.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+xorRewrite
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsRewrite 159.0
+InitialCharacterizationTest.xorTruths 158.0
+InitialCharacterizationTest.xorStructuralChange 158.0
+InitialCharacterizationTest.xorResultChange 158.0
+InitialCharacterizationTest.xor 158.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.xorStructuralChange 96.0
+InitialCharacterizationTest.xorResultChange 96.0
+InitialCharacterizationTest.xorTruthsRewrite 93.0
+InitialCharacterizationTest.xorTruths 93.0
+InitialCharacterizationTest.xor 93.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.xor 4.0
+InitialCharacterizationTest.xorResultChange 4.0
+InitialCharacterizationTest.xorStructuralChange 4.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minBasic 49.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsStructuralChange: 24.0
+InitialCharacterizationTest.xorTruthsRewrite: 24.0
+InitialCharacterizationTest.xorTruths: 24.0
+InitialCharacterizationTest.xorTruthsResultChange: 24.0
+InitialCharacterizationTest.xorResultChange: 16.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+xorTruths
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsStructuralChange 239.0
+InitialCharacterizationTest.xorTruthsRewrite 236.0
+InitialCharacterizationTest.xorTruthsResultChange 236.0
+InitialCharacterizationTest.xor 159.0
+InitialCharacterizationTest.xorRewrite 158.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.xorTruthsStructuralChange 177.0
+InitialCharacterizationTest.xorTruthsResultChange 108.0
+InitialCharacterizationTest.xorTruthsRewrite 93.0
+InitialCharacterizationTest.xorRewrite 93.0
+InitialCharacterizationTest.xor 93.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsStructuralChange 4.0
+InitialCharacterizationTest.xorTruthsResultChange 7.0
+InitialCharacterizationTest.xorTruthsRewrite 7.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minBasic 49.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsStructuralChange: 72.0
+InitialCharacterizationTest.xorTruthsRewrite: 72.0
+InitialCharacterizationTest.xorTruthsResultChange: 72.0
+InitialCharacterizationTest.xorResultChange: 48.0
+InitialCharacterizationTest.xorStructuralChange: 48.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+xorTruthsResultChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsStructuralChange 239.0
+InitialCharacterizationTest.xorTruthsRewrite 236.0
+InitialCharacterizationTest.xorTruths 236.0
+InitialCharacterizationTest.xorStructuralChange 158.0
+InitialCharacterizationTest.xorResultChange 158.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.xorTruthsStructuralChange 174.0
+InitialCharacterizationTest.xorTruths 108.0
+InitialCharacterizationTest.xorTruthsRewrite 96.0
+InitialCharacterizationTest.xorStructuralChange 93.0
+InitialCharacterizationTest.xorResultChange 93.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsStructuralChange 4.0
+InitialCharacterizationTest.xorTruths 7.0
+InitialCharacterizationTest.xorTruthsRewrite 7.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minBasic 49.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsStructuralChange: 72.0
+InitialCharacterizationTest.xorTruthsRewrite: 72.0
+InitialCharacterizationTest.xorTruths: 72.0
+InitialCharacterizationTest.xorResultChange: 48.0
+InitialCharacterizationTest.xorStructuralChange: 48.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+xorTruthsStructuralChange
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsResultChange 239.0
+InitialCharacterizationTest.xorTruths 239.0
+InitialCharacterizationTest.xorTruthsRewrite 233.0
+InitialCharacterizationTest.xorStructuralChange 158.0
+InitialCharacterizationTest.xorResultChange 158.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.xorTruths 177.0
+InitialCharacterizationTest.xorTruthsResultChange 174.0
+InitialCharacterizationTest.xorStructuralChange 93.0
+InitialCharacterizationTest.xorResultChange 93.0
+InitialCharacterizationTest.xorTruthsRewrite 40.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.xorTruths 4.0
+InitialCharacterizationTest.xorTruthsResultChange 4.0
+InitialCharacterizationTest.xorTruthsRewrite 10.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minBasic 49.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 72.0
+InitialCharacterizationTest.xorTruthsRewrite: 72.0
+InitialCharacterizationTest.xorTruths: 72.0
+InitialCharacterizationTest.xorResultChange: 48.0
+InitialCharacterizationTest.xorStructuralChange: 48.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+xorTruthsRewrite
+/////////////////////////////////////////////
+LCS
+**********************************************
+InitialCharacterizationTest.xorTruthsResultChange 236.0
+InitialCharacterizationTest.xorTruths 236.0
+InitialCharacterizationTest.xorTruthsStructuralChange 233.0
+InitialCharacterizationTest.xorRewrite 159.0
+InitialCharacterizationTest.xor 158.0
+**********************************************
+LCSubstring
+++++++++++++++++++++++++++++++++++++++++++++++
+InitialCharacterizationTest.xorTruthsResultChange 96.0
+InitialCharacterizationTest.xorTruths 93.0
+InitialCharacterizationTest.xorRewrite 93.0
+InitialCharacterizationTest.xor 93.0
+InitialCharacterizationTest.xorStructuralChange 56.0
+++++++++++++++++++++++++++++++++++++++++++++++
+Levenshtein
+---------------------------------------------
+InitialCharacterizationTest.xorTruths 7.0
+InitialCharacterizationTest.xorTruthsResultChange 7.0
+InitialCharacterizationTest.xorTruthsStructuralChange 10.0
+InitialCharacterizationTest.factorial 20.0
+InitialCharacterizationTest.minBasic 49.0
+---------------------------------------------
+/////////////////////////////////////////////
+DB Method
+---------------------------------------------
+InitialCharacterizationTest.xorTruthsResultChange: 72.0
+InitialCharacterizationTest.xorTruthsStructuralChange: 72.0
+InitialCharacterizationTest.xorTruths: 72.0
+InitialCharacterizationTest.xorResultChange: 48.0
+InitialCharacterizationTest.xorStructuralChange: 48.0
+/////////////////////////////////////////////
+/////////////////////////////////////////////
