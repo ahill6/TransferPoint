@@ -1,5 +1,6 @@
 ```java
 public static int smallest(int num1,int num2,int num3,int num4){
+
   int	bigger, bigger2, biggest;
   
   if (num1 < num2)
@@ -13,7 +14,7 @@ public static int smallest(int num1,int num2,int num3,int num4){
   if (bigger < bigger2)
     biggest = bigger;
   else biggest = bigger2;
-
-	return biggest;
-	}
+  
+  return biggest;
+  }
 ```
