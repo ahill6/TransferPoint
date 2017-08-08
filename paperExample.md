@@ -39,10 +39,9 @@ As you can see, the variables have different names, all four of the conditionals
 the approach in the former is to set an answer variable in each conditional rather than immediately return the answer.
 
 The incorrect conditional is a relatively minor error from a conceptual point of view, but results 4 of 9 unit tests failing.
-Additionally, incorrectly initializing the variable to 'A' rather than the result of the final implied <i>else</i> (i.e. 'F')
-fails an additional unit test.  Finally, the return types of the methods are different.  
+Additionally, incorrectly initializing the variable <b>score</b> to 'A' rather than the result of the final implied <b>else</b> (i.e. 'F') fails an additional unit test.  Finally, the return types of the methods are different.  
 
-While it may sometimes be desirable to exclude methods based on type mismatches, this work seeks to find intermediate-level, language-agnostic matches so that it can be more widely applicable (e.g. to cross-language clone detection as well as program repair).  Clearly, preprocessing to eliminate mismatches would have no effect on the method itself except to improve runtime.
+<b>N.B.</b> While it may sometimes be desirable to exclude methods based on type mismatches, this work seeks to find intermediate-level, language-agnostic matches so that it can be more widely applicable (e.g. to cross-language clone detection as well as program repair).  To the authors' knowledge, this type of requirement relaxation has never before been demonstrated in program repair.  This decision has no impact on the validity of results, as preprocessing to eliminate mismatches would have no effect on the method itself except to improve runtime.
 
 Thus, although this effort is easily and quickly corrected by a human, the method passes only 4 of 9 unit tests and requires 5
 distinct edits to patch.
