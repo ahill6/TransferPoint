@@ -85,7 +85,11 @@ The final constraint which would be saved to the database is the conjunct of the
 v0 - v1 + v2 <= 0 && v0 - v3 + v2 <= 0 && v4 - v0 <= 0 
 ```
 
-This would represent only one of the constraints.  The others would be derived from the paths to A, B, et al.  Together they represent the sum of all possible paths through the program.  It is assumed that this ``program shape'' is sufficient to characterize at least some method/snippet types.
+This would represent only one of the constraints.  The others would be derived from the paths to A, B, et al.  Together they represent the sum of all possible paths through the program.  It is assumed that this ``program shape'' is sufficient to characterize at least some method/snippet types, and the results of the experiments given below support that assumption.
 
 
 ### Edit Distance
+Once in a canonical form, it remains to decide what is meant by ``close''.  In the quadratic example above, the ratio of the numeric values in various positions can be used to derive an extremely accurate description of relative distance between equations.  Regretably, that is not so in this case.  Because the canonical form does not retain numbers, the relationship can be merely categorical.  It is not clear whether this is a limitation inherent in the nature of code or in this particular normal form, but a  strong suspicion of the later should motivate further study in this area.
+
+Because the constraints are essentially categorical data, string comparisons are the most natural means of calculating distance.  The standard (simple) metrics considered here were Longest Common Subsequence, Longest Common Substring, and Levenshtein (Edit) Distance.  Cosine similarity, and other metrics based upon it were not considered because their growth is exponential in the number of elements in the alphabet, and because cosine similarity does not take ordering of variables into account.\footnote{i.e. no difference between (a + b) - c and a - (b + c)}  Expanding this work to include other more exotic metrics could be a useful extension for future work.
+
