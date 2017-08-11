@@ -47,7 +47,45 @@ Thus, although this effort is easily and quickly corrected by a human, the metho
 distinct edits to patch.
 
 ### Symbolic Execution
+Symbolic execution finds values which provide maximal branch coverage (subject to it being logically possible to reach all branches).  Generating constraints which define the path to each branch.  For example, in order to reach branch C (branches are here indexed by return values), the conditions would be:
+
+```sql
+score < aval
+score < bval
+score >= cval
+```
+
+The most common use of this information is the generation of unit tests with good coverage guarantees.  In program repair, solver-based approaches such as Angelix apply symbolic execution not to the SUT itself, but to a transformation of the SUT so that the constraints.  That is, a solution to the SAT problem no longer represents a path through the program, but instead represents a path through a corrected program.  This allows the solution of the SAT problem to be used to generate a patch.
+
+Contrary to both of these approaches, this work uses the \emph{constraints themselves} to characterize program behavior.  A database search is then conducted to find code with similar behavior.  For maximum improvement, this database should only contain correct programs, but it is also possible to use unit tests to find which close match is a correct patch.\footnote{However, such an approach would then be subject to all the well-known criticisms of unit tests as a specification}
+
 
 ### Canonical Form
+Once the constraints have been gathered by SPF, they must be put in a canonical form.  Previous work \cite{??} has tried using edit distance on programs to find matches, but did not have much success, as even simple variable renaming could introduce significant syntactic disparity.  The purpose of a canonical form in all fields is to have an abstract statement which transforms semantic similarity into syntactic similarity.  This is widely used in mathematics for similar purposes.  For example, there are infinitely many ways to describe a quadratic equation, but requiring the form $ax^2 + bx + c = 0$ creates a form in which similarities between syntactically distinct equations become apparent.  The normal form suggested in \cite{green??} is used here for the same reason.  Such normalization of constraints is necessary because this work is treating the constraints \emph{as themselves} the weak specification, a fundamentally different approach than any current in program repair.
+
+Given the constraint above, the constraints are lexicographically ordered.  In this example, the constraints as given are already orderd, so no change is necessary.  Normalization to the form a_1x_1 + a_2x_2 + \cdots + a_nx_n <= 0 is given below.
+
+```sql
+score < aval  -->  score - aval + MIN <= 0
+score < bval  -->  score - bval + MIN <= 0
+score >= cval -->  cval - score <= 0
+```
+
+The constraints are then renamed from left to right.  This ensures that \textbf{x < y} and \textbf{a < b} will match one another.  In the case of the example, this would be
+
+```sql
+score - aval + MIN <= 0  -->  v0 - v1 + v2 <= 0
+score - bval + MIN <= 0  -->  v0 - v3 + v2 <= 0
+cval - score <= 0        -->  v4 - v0 <= 0 
+```
+
+The final constraint which would be saved to the database is the conjunct of these conditions (recall, this has been implicitly a conjunct the entire time).
+
+```sql
+v0 - v1 + v2 <= 0 && v0 - v3 + v2 <= 0 && v4 - v0 <= 0 
+```
+
+This would represent only one of the constraints.  The others would be derived from the paths to A, B, et al.  Together they represent the sum of all possible paths through the program.  It is assumed that this ``program shape'' is sufficient to characterize at least some method/snippet types.
+
 
 ### Edit Distance
