@@ -1,0 +1,35 @@
+Remove the find_extra_compile_args stuff (utils/file_process.py)
+
+Added TIMEOUT and BUG_TYPE to settings.py
+
+Change the directory patches are written to to patches/BUG_TYPE/patch#-filename.c.  This is so the program can be run automatically on many bugs (sorted by bug type).
+
+the gcc on Makefile should look like below
+FILENAME=680-B-18336377
+CC=gcc
+CFLAGS=-fprofile-arcs -ftest-coverage
+LDFLAGS=-lm -lgcov --coverage
+all:
+	$(CC) $(CFLAGS) -c $(FILENAME).c -o $(FILENAME).o
+	$(CC) $(FILENAME).o -o $(FILENAME) $(LDFLAGS)
+.PHONY: clean
+clean:
+	rm -f *.o $(FILENAME)
+
+
+Added check for time.time() - start_time > TIMEOUT to run.py (inside loop for snippet_id in code_snippet_ids 
+
+Changed phases in run.py so that it only uses “all”, not same_file or same_module
+
+Discovered that afsoon already checks whether the types match in db_manager.valid_snippets
+
+
+-- all suspicious line calculations are identical (all = 0). NEED TO FIGURE OUT WHY AND FIX
+
+
+
+-- when writing test scripts, don’t forget to give them all chmod +x (execute permissions).  If need to do something (e.g. chmod +x) to a bunch of files at once, see bash prompt command below.
+
+find . -name test-searchrepair.sh -exec chmod +x {} \; 
+
+Find files (recursively), starting in “.”, keep only ones whose name match (many options for find).  On each of those, one at a time replace {} with the file name and exec the command chmod +x.  The ; is escaped so the command line doesn’t try to interpret it.
