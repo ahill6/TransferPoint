@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2018-02-28-14-14-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	success	status
+#types	time	string	addr	port	addr	port	string	string	string	bool	string
+1331918637.900000	CjhIDK1TkyL9MXW2Rb	192.168.202.110	60503	192.168.229.153	135	-	-	-	-	-
+1331918791.870000	CrtPLw3DA2Ulr3onSg	192.168.202.110	45345	192.168.229.252	135	-	-	-	-	-
+#close	2018-02-28-14-15-36

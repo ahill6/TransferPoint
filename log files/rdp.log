@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	rdp
+#open	2018-02-28-14-13-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	cookie	result	security_protocol	keyboard_layout	client_build	client_name	client_dig_product_id	desktop_width	desktop_height	requested_color_depth	cert_type	cert_count	cert_permanent	encryption_level	encryption_method
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	string	count	count	string	string	count	bool	string	string
+1331916844.750000	C0snou336vQ7YZqKI	192.168.202.110	51706	192.168.25.100	3389	Scorebot	Success	RDP	English - United States	RDP 5.1	bt	(empty)	800	600	24bit	RSA	1	T	Client compatible	128bit
+#close	2018-02-28-14-15-36

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2018-02-28-14-15-17
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1331918844.990000	Reporter::ERROR	field value missing [KRB::msg$service_name]	/usr/local/bro/share/bro/base/protocols/krb/./main.bro, line 143
+#close	2018-02-28-14-15-36

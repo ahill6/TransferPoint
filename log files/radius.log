@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	radius
+#open	2018-02-28-14-13-49
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	mac	framed_addr	remote_ip	connect_info	reply_msg	result	ttl
+#types	time	string	addr	port	addr	port	string	string	addr	addr	string	string	string	interval
+1331917071.240000	C29JWW3vvCtYW5ww9k	192.168.202.110	32924	192.168.23.103	1812	nessus	-	-	-	-	-	unknown	-
+1331917087.210000	Cv3Ng42TzrpItlU3gb	192.168.202.110	52597	192.168.23.100	1812	nessus	-	-	-	-	-	unknown	-
+1331917128.700000	CX1n3E2Ne0T0aXQW99	192.168.202.110	55067	192.168.23.101	1812	nessus	-	-	-	-	-	unknown	-
+1331917885.150000	CEY6wH3LPZJTcjbwd	192.168.202.110	52641	192.168.23.25	1812	nessus	-	-	-	-	-	unknown	-
+1331918704.270000	CZppMf3Xn6e62QXtA4	192.168.202.110	37637	192.168.229.1	1812	nessus	-	-	-	-	-	unknown	-
+1331918714.370000	C5RYmq2NOYWd8wWk67	192.168.202.110	52101	192.168.229.156	1812	nessus	-	-	-	-	-	unknown	-
+1331918768.020000	CHyQnJ3lBf3KftsOc6	192.168.202.110	42310	192.168.229.153	1812	nessus	-	-	-	-	-	unknown	-
+1331918851.550000	C8n8rL1e3v6etaabYl	192.168.202.110	45032	192.168.229.251	1812	nessus	-	-	-	-	-	unknown	-
+1331918862.610000	CaybFgPbAV26yimzl	192.168.202.110	53375	192.168.229.101	1812	nessus	-	-	-	-	-	unknown	-
+#close	2018-02-28-14-15-36

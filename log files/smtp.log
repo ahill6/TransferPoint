@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smtp
+#open	2018-02-28-14-15-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	helo	mailfrom	rcptto	date	from	to	cc	reply_to	msg_id	in_reply_to	subject	x_originating_ip	first_received	second_received	last_reply	path	user_agent	tls	fuids
+#types	time	string	addr	port	addr	port	count	string	string	set[string]	string	string	set[string]	set[string]	string	string	string	string	addr	string	string	string	vector[addr]	string	bool	vector[string]
+1331918905.590000	CfBLmr4rHaEJV08ZGg	192.168.202.110	41499	192.168.229.251	25	1	168.229.251	root@[192.168.202.110]	(empty)	-	-	-	-	-	-	-	-	-	-	-	501 5.5.4 Invalid Address	192.168.229.251,192.168.202.110	-	F	(empty)
+1331918905.680000	CkGZGR3xuCiD0sCy5	192.168.202.110	41502	192.168.229.251	25	1	X	-	(empty)	-	-	-	-	-	-	-	-	-	-	-	504 Need to authenticate first	192.168.229.251,192.168.202.110	-	F	(empty)
+1331918908.950000	Cu2her2aAlLTlnmNXj	192.168.202.110	41663	192.168.229.251	25	1	example.com	nessus@nessus.org	(empty)	-	-	-	-	-	-	-	-	-	-	-	503 5.5.2 BDAT command expected	192.168.229.251,192.168.202.110	-	F	(empty)
+#close	2018-02-28-14-15-36
