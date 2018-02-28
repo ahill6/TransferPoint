@@ -1,0 +1,31 @@
+# TShark hosts output
+#
+# Host data gathered from /Users/ahill6/Downloads/maccdc2012_00008.pcap
+
+192.168.202.84	OS-X.local
+169.254.183.85	staff.local
+192.168.202.77	C02GN35UDJWR.local
+10.10.99.156	localhost.local
+192.168.229.251	outlook.hec.net
+10.10.99.252	forestdnszones.hec.net
+192.168.51.38	chases-MacBook-Pro.local
+10.10.99.251	forestdnszones.hec.net
+192.168.202.123	staff.local
+192.168.203.63	chases-MacBook-Pro.local
+10.10.99.153	sql.hec.net
+192.168.229.151	pbx.hec.net
+10.10.99.152	meet.hec.net
+192.168.229.150	ifolder.hec.net
+172.16.10.25	172.16.10.25
+192.168.229.101	www.hec.net
+127.0.0.1	localhost
+2001:dbb:c18:202:ba8d:12ff:fe53:a8d8	C02GN35UDJWR.local
+2001:dbb:c18:1229:c16f:39b3:ab79:7043	lync.hec.net
+fe80::3e07:54ff:fe41:3ed3	chases-MacBook-Pro.local
+2001:dbb:c18:203:3e07:54ff:fe41:3ed3	chases-MacBook-Pro.local
+fe80::c62c:3ff:fe37:efc	OS-X.local
+2001:dbb:c18:202:c62c:3ff:fe37:efc	OS-X.local
+fe80::ba8d:12ff:fe53:a8d8	C02GN35UDJWR.local
+2001:dbb:c18:204:a800:4ff:fe00:a04	def-unmeta.local
+fe80::c62c:3ff:fe30:7333	staff.local
+fe80::a800:4ff:fe00:a04	def-unmeta.local
