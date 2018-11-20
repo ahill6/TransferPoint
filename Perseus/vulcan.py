@@ -28,22 +28,36 @@ def to_xml(xml):
 
 
 def tryMe(string):
-    url = "http://www.perseus.tufts.edu/hopper/xmlmorph?lang=greek&lookup="+string
-    a = None
-    try:
+    def trying(url):
+        tmp = None
         resp = etree.parse(url)
         iter = resp.getroot()
-        a = list(set([b.text for b in iter.iterfind('.//lemma')]))
+        tmp = list(set([b.text for b in iter.iterfind('.//lemma')]))
 
-        if len(a) == 1:
-            a = a[0]
+        if len(tmp) == 1:
+            tmp = tmp[0]
+        return tmp
+    # print(string)
+    if len(string.strip()) < 1:
+        return None
+    url = "http://www.perseus.tufts.edu/hopper/xmlmorph?lang=greek&lookup="+string
+    a, again = None, True
+    try:
+        a = trying(url)
     except OSError as e:   
-        print("AAAAAAAAAAAAAAAAAAAAAH")
-        logging.error(string)
+        # print("AAAAAAAAAAAAAAAAAAAAAH")
+        logging.error("Problem when attempting to parse: " + string)
+        # logging.error(e)
     except Exception as e:
-        print("OOOOOOOOOOOOOOOOHHH NOOOOOOOOOOOO!")
-        logging.exception(e)
-
+        # print("OOOOOOOOOOOOOOOOHHH NOOOOOOOOOOOO!")
+        logging.error("Exception at " + string)
+        # logging.exception("Exception at " + string)
+    if a is None:
+        try:
+            a = trying(url)
+        except OSError or Exception:
+            pass
+    # print(a)
     return a
 
 #url = "http://www.perseus.tufts.edu/hopper/xmlmorph?lang=greek&lookup=mhrusanto"
@@ -105,3 +119,6 @@ if __name__ == "__main__":
         print("ERROR 2")
         print(ResponseErrorInfo(ex1))
         #raise ex1
+
+
+
